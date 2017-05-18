@@ -16,9 +16,9 @@
 title: University of York MathSoc
 email: enquiry@yums.org.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The University of York Mathematics Society - Our aim is to enhance the social experience of
+  students, expand academic opportunities in mathematics and forge strong relations for our members
+  to use in future careers and beyond
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: UoYMathSoc
