@@ -14,18 +14,18 @@ year.
 
 ## Our current committee consists of:
 
-# Jack Davidson - Chair
+### Jack Davidson - Chair
 
 Jack is a 2nd year MMath student with an interest in
 Programming and Statistics, he aims in the future to sell out and
 work in a investment banking firm. In his spare time he enjoys
 playing video games, going to the gym, and playing guitar.
 
-# Jack Patrick - Secretary
+### Jack Patrick - Secretary
 
 Pls add Jack
 
-# Nathan Plumb - Treasurer
+### Nathan Plumb - Treasurer
 
 He studies Actuarial Science and as such is mainly interested in
 Statistical Mathematics. In his free time he is an accomplished
@@ -34,7 +34,7 @@ grade 8’s. In what little spare time he has after doing all this
 he also goes caving, swing dances and worries about how little
 time he has left to do homework in.
 
-# Keziah Clarke - Academic Officer
+### Keziah Clarke - Academic Officer
 
 Kez is one of the two members to have taken on the role of Academic
 Officer. She studies Mathematics and Statistics, her particular
