@@ -14,12 +14,14 @@ year.
 
 ## Our current committee consists of:
 
-### Jack Davidson - Chair
+### Jack Davidson - Chair ![image](images/portrait_jwd508.jpg)
 
 Jack is a 2nd year MMath student with an interest in
 Programming and Statistics, he aims in the future to sell out and
 work in a investment banking firm. In his spare time he enjoys
 playing video games, going to the gym, and playing guitar.
+
+[president@yums.org.uk](mailto:president@yums.org.uk)
 
 ### Jack Patrick - Secretary
 
