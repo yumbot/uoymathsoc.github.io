@@ -1,15 +1,44 @@
 ---
 layout: page
-title: About
+title: Meet the Committee
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+We are a society aimed at everyone with an interest in mathematics.
+With social and academic motives we organise public lectures
+delivered by globally renowned external speakers who are leaders
+in their field, study groups aimed at ensuring you are fully
+supported with your exam preparation, as well as a diverse array
+of social events; including a few trips away in the forthcoming
+year.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+## Our current committee consists of:
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+# Jack Davidson - Chair
+
+Jack is a 2nd year MMath student with an interest in
+Programming and Statistics, he aims in the future to sell out and
+work in a investment banking firm. In his spare time he enjoys
+playing video games, going to the gym, and playing guitar.
+
+# Jack Patrick - Secretary
+
+Pls add Jack
+
+# Nathan Plumb - Treasurer
+
+He studies Actuarial Science and as such is mainly interested in
+Statistical Mathematics. In his free time he is an accomplished
+musician, playing in two orchestras and having achieved three
+grade 8’s. In what little spare time he has after doing all this
+he also goes caving, swing dances and worries about how little
+time he has left to do homework in.
+
+# Keziah Clarke - Academic Officer
+
+Kez is one of the two members to have taken on the role of Academic
+Officer. She studies Mathematics and Statistics, her particular
+interest is in Stochastic analysis. Other than sleeping and having
+fun processing data on R-studio, she also enjoys going to see plays
+at the theatre and to local heavy metal gigs, doing pole exercise
+and playing darts!
