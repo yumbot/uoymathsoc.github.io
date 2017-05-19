@@ -22,12 +22,12 @@ description: > # this means to ignore newlines until "baseurl:"
   Copyright University of York Mathematics Society © 2017, All Rights Reserved
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: uoymathsoc
-github_username:  uoymathsoc
+twitter_username: UoYMathSoc
+github_username:  UoYMathSoc
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 gems:
   - jekyll-feed
 exclude:
