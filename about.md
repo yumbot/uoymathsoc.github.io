@@ -11,12 +11,20 @@ We are a society aimed at everyone with an interest in mathematics. With social 
 <div>
 {% for member in site.data.committee.members %}
     
+    {% if member.itsUsername == null %}
+        {% break %}
+    {% endif %}
+    
     <h3> {{ member.name }} - {{ member.position }} </h3>
     <img style="float: left;" hspace="20" src="{{ site.url }}/images/portrait_{{member.itsUsername}}.jpg" onError="src='{{ site.url }}/images/portrait_placeholder.jpg'">
     
     <p>
-    {{ site.committee.bios | where:"itsUsername", [member.itsUsername] | first |}}
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at tincidunt magna, nec tempor nulla. Integer quis fermentum diam. Sed tempus massa eu elit dignissim consectetur. Nunc pretium congue nisi, at ullamcorper quam euismod et. Nullam non semper urna. Donec vestibulum felis vitae nisi rutrum.
+        {% assign bio = site.data.committee.bios.[member.itsUsername] %}
+        {% if bio == null %}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at tincidunt magna, nec tempor nulla. Integer quis fermentum diam. Sed tempus massa eu elit dignissim consectetur. Nunc pretium congue nisi, at ullamcorper quam euismod et. Nullam non semper urna. Donec vestibulum felis vitae nisi rutrum.
+        {% else %}
+          {{ bio }}
+        {% endif %}
     </p>
     
     <a href="mailto:{{ member.handle | split:'_' | first }}@yums.org.uk">{{ member.handle | split:'_' | first }}@yums.org.uk</a>
