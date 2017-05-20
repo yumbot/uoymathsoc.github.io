@@ -4,15 +4,27 @@ title: Meet the Committee
 permalink: /about/
 ---
 
-We are a society aimed at everyone with an interest in mathematics.
-With social and academic motives we organise public lectures
-delivered by globally renowned external speakers who are leaders
-in their field, study groups aimed at ensuring you are fully
-supported with your exam preparation, as well as a diverse array
-of social events; including a few trips away in the forthcoming
-year.
+We are a society aimed at everyone with an interest in mathematics. With social and academic motives we organise public lectures delivered by globally renowned external speakers who are leaders in their field, study groups aimed at ensuring you are fully supported with your exam preparation, as well as a diverse array of social events; including a few trips away in the forthcoming year.
 
 ## Our current committee consists of:
+
+<div>
+{% for member in site.data.committee.members %}
+    
+    <h3> {{ member.name }} - {{ member.position }} </h3>
+    <img style="float: left;" hspace="20" src="{{ site.url }}/images/portrait_{{member.itsUsername}}.jpg" onError="src='{{ site.url }}/images/portrait_placeholder.jpg'">
+    
+    <p>
+    {{ site.committee.bios | where:"itsUsername", [member.itsUsername] | first |}}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at tincidunt magna, nec tempor nulla. Integer quis fermentum diam. Sed tempus massa eu elit dignissim consectetur. Nunc pretium congue nisi, at ullamcorper quam euismod et. Nullam non semper urna. Donec vestibulum felis vitae nisi rutrum.
+    </p>
+    
+    <a href="mailto:{{ member.handle | split:'_' | first }}@yums.org.uk">{{ member.handle | split:'_' | first }}@yums.org.uk</a>
+
+{% endfor %}
+</div>
+
+<!---
 
 ### Jack Davidson - President
 <img style="float: left;" hspace="20" src="{{ site.url }}/images/portrait_jwd508.jpg">
@@ -41,3 +53,5 @@ Nathan studies Actuarial Science and as such is mainly interested in Statistical
 She studies Mathematics and Statistics, her particular interest is in Stochastic analysis. Other than sleeping and having fun processing data on R-studio, she also enjoys going to see plays at the theatre and to local heavy metal gigs, doing pole exercise and playing darts!
 
 [academic@yums.org.uk](mailto:academic@yums.org.uk)
+
+--->
