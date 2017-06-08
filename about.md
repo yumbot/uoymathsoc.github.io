@@ -16,7 +16,7 @@ We are a society aimed at everyone with an interest in mathematics. With social 
     {% endif %}
     
     <h3> {{ member.name }} - {{ member.position }} </h3>
-    <img style="float: left;" hspace="20" src="{{ site.url }}/images/portrait_{{member.itsUsername}}.jpg" onError="src='{{ site.url }}/images/portrait_placeholder.jpg'">
+    <img style="float: left;" hspace="20" src="{{ site.url }}/images/portrait_{{member.itsUsername}}.jpg" onError="src='{{ site.url }}/images/portrait_.jpg'">
     
     <p>
         {% assign bio = site.data.committee.bios.[member.itsUsername] %}
