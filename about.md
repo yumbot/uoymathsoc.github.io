@@ -15,7 +15,7 @@ We are a society aimed at everyone with an interest in mathematics. With social 
         {% break %}
     {% endif %}
     
-    <h3> {{ member.name }} - {{ member.position }} </h3>
+    <h3><a name="{{ member.itsUsername }}"></a>  {{ member.name }} - {{ member.position }} </h3>
     <img style="float: left;" hspace="20" src="{{ site.url }}/images/portrait_{{member.itsUsername}}.jpg" onError="src='{{ site.url }}/images/portrait_.jpg'">
     
     <p>
@@ -32,7 +32,7 @@ We are a society aimed at everyone with an interest in mathematics. With social 
 {% endfor %}
 </div>
 
-<!---
+{% comment %}
 
 ### Jack Davidson - President
 <img style="float: left;" hspace="20" src="{{ site.url }}/images/portrait_jwd508.jpg">
@@ -62,4 +62,4 @@ She studies Mathematics and Statistics, her particular interest is in Stochastic
 
 [academic@yums.org.uk](mailto:academic@yums.org.uk)
 
---->
+{% endcomment %}
