@@ -1,8 +1,0 @@
-- text: Home
-  url: /
-- text: Meet the Committee
-  url: /about/
-  subitems:
-    - text: 2016
-      url: /about/2016/
-      
