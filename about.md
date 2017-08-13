@@ -12,7 +12,7 @@ We are a society aimed at everyone with an interest in mathematics. With social 
 {% for member in site.data.committee.members %}
     
     {% if member.itsUsername == null %}
-        {% break %}
+        {% continue %}
     {% endif %}
     
     <h3><a name="{{ member.itsUsername }}"></a>  {{ member.name }} - {{ member.position }} </h3>
