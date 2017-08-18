@@ -10,9 +10,15 @@ permalink: /about/
 <style>
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 256px;
+    width: 256px;
     margin: auto;
     text-align: center;
+    display: inline-block;
+    padding: 8px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .container {
@@ -24,7 +30,7 @@ permalink: /about/
     font-size: 18px;
 }
 
-button {
+.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -75,7 +81,7 @@ We are a society aimed at everyone with an interest in mathematics. With social 
             </p>
             <a href="#"><i class="fa fa-twitter"></i></a> 
             <a href="#"><i class="fa fa-linkedin"></i></a> 
-            <p><button>Contact</button></p>
+            <p><a class="button" href="mailto:{{ member.handle | split:'_' | first }}@yums.org.uk">Contact</a></p>
             
             <!--<a href="mailto:{{ member.handle | split:'_' | first }}@yums.org.uk">{{ member.handle | split:'_' | first }}@yums.org.uk</a>-->
         </div>
