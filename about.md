@@ -53,6 +53,7 @@ We are a society aimed at everyone with an interest in mathematics. With social 
 
 ## Our current committee consists of:
 
+<div>
 {% for member in site.data.committee.members %}
     
     {% if member.itsUsername == null %}
@@ -81,6 +82,7 @@ We are a society aimed at everyone with an interest in mathematics. With social 
     </div>
 
 {% endfor %}
+</div>
 
 {% comment %}
 
